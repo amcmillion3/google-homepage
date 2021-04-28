@@ -3,10 +3,25 @@
 body {
     font-family: Montserrat, sans-serif;
 }
-/* header {
-    text-align: center;
-} */
 
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+}
+
+/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -17,7 +32,9 @@ body {
     width: 125px;
     display:  flex;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .right-nav {
@@ -25,28 +42,71 @@ body {
     width: 260px;
     display:  flex;
     justify-content: space-around;
-    align-items: flex-end;
-}
-
-#about {
+    align-items: center;
     font-size: 13px;
     font-weight: 400;
 }
 
-#store {
-    font-size: 13px;
-    font-weight: 400;
+/* Logo */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
 }
 
-#gmail {
-    font-size: 13px;
-    font-weight: 400;
+/* Search Bar */
+.form-container {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    margin: 0 600px;
+    height: 46px;
 }
 
-#images {
+.form-container:hover {
+    box-shadow: 1px 1px 3px 1px #e8e8e8;
+}
+
+/* Buttons */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.search-btn {
+    margin:  5px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 3px;
+    color: #5F6368;
+}
+
+.search-btn:hover {
+    border: 1px solid #c0c0c0;
+    cursor: pointer;
+}
+
+
+/* Footer */
+.foot {
+    display: flex;
+    justify-content: space-around;
     font-size: 13px;
     font-weight: 400;
+    margin: 0 15px;
 }
+
+.foot-links {
+    margin: 0 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 #sign-in-span {
     height: 40px;
@@ -63,3 +123,17 @@ body {
     padding: 8px 13px;
     font-weight: bold;
 }
+
+#logo {
+    height: 90px;
+    width: 270px;
+    padding-top: 110px;
+    padding-bottom: 25px;
+}
+
+#search-bar {
+    width:  490px;
+    height:  35px;
+    border: none;
+}
+
