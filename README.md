@@ -1,2 +1,2 @@
 # google-homepage
-This project is a recreation of the Google landing page. I should use HTML to put on all the necessary components and then use CSS to decorate.
+This project is a recreation of the Google landing page. I tried to keep it as simple as possible. There is no JS so it has no functionality but it behaves similar to the regular Google landing page. 
